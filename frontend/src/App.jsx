@@ -63,8 +63,5 @@ function App() {
     </Routes>
   );
 }
-const api = axios.create({
-  baseURL: 'https://login1-ta49.onrender.com', // ← backend URL
-});
 
 export default App;
