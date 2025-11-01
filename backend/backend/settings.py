@@ -83,7 +83,7 @@ SIMPLE_JWT = {
 # ---------------------------------------------------------------------
 CORS_ALLOW_ALL_ORIGINS = os.getenv("CORS_ALLOW_ALL", "True").lower() == "true"
 CORS_ALLOWED_ORIGINS = [
-    "https://your-frontend-url.onrender.com",
+    "https://login2-t6b1.onrender.com",
 ]
 
 
