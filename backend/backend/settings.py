@@ -83,9 +83,9 @@ SIMPLE_JWT = {
 # ---------------------------------------------------------------------
 CORS_ALLOW_ALL_ORIGINS = os.getenv("CORS_ALLOW_ALL", "False").lower() == "true"
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:5173",
-    "http://localhost:5173",
-] + os.getenv("CORS_EXTRA_ORIGINS", "").split(",")
+    "https://your-frontend-url.onrender.com",
+]
+
 
 # ---------------------------------------------------------------------
 # TEMPLATES
